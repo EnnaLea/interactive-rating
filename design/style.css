@@ -1,0 +1,66 @@
+/* styling the background, the color of the text and the font */
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+h3{
+    padding-bottom: 5%;
+}
+
+.card {
+background: rgb(2, 0, 36);
+background: linear-gradient(360deg, rgba(2, 0, 36, 1) 39%, rgba(40, 45, 51, 1) 100%, rgba(0, 212, 255, 1) 100%);
+border-radius: 10%;
+align-items: center;
+margin-left: 40%;
+margin-top: 15%; 
+width: 30%;  
+height: 40%; 
+}
+
+/* @media screen {
+    margin-left: 25%;
+    margin-right: 25%;
+    
+} */
+
+.container{
+
+    align-items: center;
+    margin: 50%;
+    
+    
+}
+
+.btn{
+    background-color: hsl(25, 97%, 53%);
+}
+
+/* used dispaly property to align items in column */
+.card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    
+}
+
+
+
+
+
+
+
+
+/* <style>.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+</style> */
